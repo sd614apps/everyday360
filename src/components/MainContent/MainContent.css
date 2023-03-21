@@ -1,0 +1,25 @@
+.main-content {
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 1rem;
+}
+
+.cell {
+    border: none;
+    height: 50%; /* make cells take up half of the available height */
+    width: 50%; /* make cells take up half of the available width */
+    box-sizing: border-box; /* include padding and border in cell dimensions */
+}
+  

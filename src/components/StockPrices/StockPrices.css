@@ -1,0 +1,26 @@
+.stock-prices {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stock-prices h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.stock-prices ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.stock-prices li {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.stock-prices li:last-child {
+    margin-bottom: 0;
+}
+  
