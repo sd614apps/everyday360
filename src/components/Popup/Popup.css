@@ -1,0 +1,28 @@
+.weather-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    z-index: 999;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.content {
+    margin-top: 10px;
+}
+  
